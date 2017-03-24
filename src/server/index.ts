@@ -7,7 +7,7 @@ import WebSocket = require('ws');
 import icalendar = require('icalendar');
 import { Filter, Rewriter, execRules } from './filters';
 
-const port = process.env.PORT | 8000;
+const port = process.env.PORT || 8000;
 const app = express();
 const server = http.createServer(app);
 
