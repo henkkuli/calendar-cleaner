@@ -1,0 +1,15 @@
+.box {
+    border: 1px solid #000;
+    border-radius: .2em;
+    padding: .4em;
+    margin: .5em;
+}
+.box > .legend {
+    display: block;
+    margin-bottom: .5em;
+    margin-top: -.4em;
+    margin-left: -.4em;
+    margin-right: -.4em;
+    padding: .4em;
+    border-bottom: 1px solid #000;
+}

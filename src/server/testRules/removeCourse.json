@@ -1,0 +1,18 @@
+[
+    {
+        "type": "filter",
+        "matcher": {
+            "type": "or",
+            "conditions": [
+                {
+                    "type": "regex",
+                    "regex": "asdf"
+                },
+                {
+                    "type": "regex",
+                    "regex": "PHYS-A0130"
+                }
+            ]
+        }
+    }
+]
