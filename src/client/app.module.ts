@@ -3,7 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { UserDetailComponent } from './userdetail.component';
+import { UserDetailComponent } from './userDetail.component';
 import { RulesComponent, FilterRuleComponent, RewriterRuleComponent, MatcherRuleComponent } from './rules.component';
 
 @NgModule({
